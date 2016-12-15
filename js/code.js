@@ -1,5 +1,5 @@
 var cols, rows;
-var w = 2;
+var w = 5;
 var cells = [];
 var currentCell;
 var route = [];
