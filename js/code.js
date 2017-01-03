@@ -1,5 +1,5 @@
 var cols, rows;
-var w = 5;
+var w = 3;
 var cells = [];
 var currentCell;
 var route = [];
@@ -75,9 +75,9 @@ function Cell(r,c) {
         var y = this.r*w;
         if (this.visited) {
             noStroke();
-            fill(20,20,200,255);
+            fill(20,20,200,130);
             if (this.current)
-                fill(255,255,0,255);
+                fill(255,255,0,130);
             rect(x,y,w,w);
         }
         stroke(255); //255
