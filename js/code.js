@@ -75,9 +75,9 @@ function Cell(r,c) {
         var y = this.r*w;
         if (this.visited) {
             noStroke();
-            fill(20,20,200,130);
+            fill(40,40,255,200);
             if (this.current)
-                fill(255,255,0,130);
+                fill(255,255,0,200);
             rect(x,y,w,w);
         }
         stroke(255); //255
